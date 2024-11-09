@@ -1,0 +1,157 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(0.25turn, rgb(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)),linear-gradient(rgb(0, 0, 0, 1), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1)),url('../img/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+	background-position: top; 
+  color: #e6ceb8;
+  margin: 0;
+}
+  
+header {
+  background-color: #000000;
+  color: #e6ceb8;
+  align-items: center;
+}
+
+.header_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  margin: 10px;
+}
+  
+nav {
+  display: flex;
+  background-color: transparent;
+  align-items: center;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #c3ae9a;
+  padding: 10px 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+  display: block;
+  transition: 0.3s;
+}
+
+.container {
+  padding: 0px 20px;
+  max-width: 800px;
+  margin: auto;
+  min-height: calc(100vh - 130px);
+}
+
+.menu-container {
+  padding: 0px 20px;
+  max-width: 800px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 113px);
+}
+.menu {
+  display:block;
+}
+
+.start {
+  justify-content: center;
+  display: flex;
+}
+
+.start a {
+  justify-content: center;
+  color: #c3ae9a;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  transition: 0.3s;
+  padding: 10px;
+}
+
+h1 {
+  color: #e6ceb8;
+  text-align: center;
+  font-size: 96px;
+  margin: 0px;
+}
+
+h2 {
+  color: #e6ceb8;
+  text-align: left;
+  font-size: 36px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-left: 8px;
+}
+
+.container a {
+  color: #e6ceb8;
+  padding: 10px 0px;
+  text-decoration: none;
+  display: block;
+  transition: 0.3s;;
+}
+
+.menu-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.menu-table th, .menu-table td {
+  border: 0px solid;
+  padding: 8px;
+
+}
+
+.menu-table th {
+  color: #c3ae9a;
+  font-size: 20px;
+}
+
+.menu-table td {
+  color: #af9a86;
+  font-size: 18px;
+}
+
+.name {
+  text-align: left;
+}
+
+.description {
+  text-align: center;
+}
+
+.price {
+  text-align: right;
+}
+
+footer {
+  background-color: #000000;
+  color: #e6ceb8;
+  align-items: center;
+}
+
+h3 {
+  color: #e6ceb8;
+  text-align: center;
+  font-size: 10px;
+  margin: 15px;
+}
+
+.now {
+  pointer-events: none;
+  color: #685340;
+}
+
+a:hover {
+  color: #685340;
+}
