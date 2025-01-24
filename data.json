@@ -1,0 +1,14 @@
+{
+      "reviews": {
+        "get": {
+            "data": [
+                {"email":"test@test.ru","text": "1"}
+            ]
+        },
+        "post": {
+            "data": [
+                {"email":"test@test.ru","text": "2"}
+            ]
+        }
+    }
+}
